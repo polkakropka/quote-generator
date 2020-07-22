@@ -10,4 +10,4 @@ Requirements:
 
 Visit the webpage to see how the generator works:
 
-https://kpochojka.github.io/quote-generator
+https://polkakropka.github.io/quote-generator/
