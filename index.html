@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <title> Random quote machine </title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Random quote machine</h1>
+        </header>
+
+            <div class="btn-small-group" role="group">
+                <h3>How many quotes do you want to create?</h3>
+                <input type="button" name="button" id="one" value='1' class="btn-small" onclick="getValue(this)">
+                <input type="button" name="button" id="two" value='2' class="btn-small" onclick="getValue(this)">
+                <input type="button" name="button" id="three" value='3' class="btn-small" onclick="getValue(this)">
+                <input type="button" name="button" id="four" value='4' class="btn-small" onclick="getValue(this)">
+                <input type="button" name="button" id="five" value='5' class="btn-small" onclick="getValue(this)">
+            </div>
+   
+            <div class="btn-big-group">
+                <h3>Choose quote generator</h3>
+                <input type="button" id="generatorOne" name="buttonsTwo" class="btn-big" value="1" onclick="getQuote(this)">
+                <input type="button" id="generatorTwo" name="buttonsTwo" class="btn-big" value="2" onclick="getQuote(this)">
+            </div>
+            <div id="quote"></div>
+        
+    </div>
+    <script src="js/jquery.js"></script>
+
+    
+</body>
+
+</html>
